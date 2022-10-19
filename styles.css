@@ -1912,6 +1912,160 @@ textarea.w-select {
 .w--tab-active {
   display: block;
 }
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1400px;
+    padding-right: 16px;
+    font-size: 16px;
+  }
+
+  .navbar-logo-left-container.shadow-three {
+    width: 100%;
+    margin-right: auto;
+    padding-right: 20px;
+  }
+
+  .navbar-wrapper {
+    padding-right: 0px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .hero-split {
+    font-size: 18px;
+  }
+
+  .margin-bottom-24px {
+    font-size: 16px;
+  }
+
+  .shadow-two {
+    max-width: 100%;
+  }
+
+  .shadow-two.image {
+    max-width: 90%;
+  }
+
+  .heading-3 {
+    font-size: 32px;
+  }
+
+  .centered-heading {
+    font-size: 34px;
+  }
+
+  .centered-subheading {
+    font-size: 18px;
+  }
+
+  .column {
+    font-size: 16px;
+  }
+
+  .margin-bottom-24px-2 {
+    font-size: 16px;
+  }
+
+  .heading-6 {
+    font-size: 34px;
+  }
+
+  .paragraph-2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .heading-19 {
+    margin-bottom: 0px;
+    font-size: 42px;
+  }
+
+  .column-2 {
+    font-size: 15px;
+  }
+
+  .column-3 {
+    font-size: 16px;
+  }
+
+  .heading-21 {
+    font-size: 34px;
+  }
+
+  .field-label {
+    font-size: 16px;
+  }
+
+  .field-label-2 {
+    font-size: 16px;
+  }
+
+  .field-label-3 {
+    font-size: 16px;
+  }
+
+  .submit-button-2 {
+    font-size: 16px;
+  }
+
+  .list-item-20 {
+    font-size: 20px;
+  }
+
+  .list-item-22 {
+    font-size: 20px;
+  }
+
+  .list-item-23 {
+    font-size: 20px;
+  }
+
+  .bold-text-10 {
+    font-size: 20px;
+  }
+
+  .bold-text-11 {
+    font-size: 20px;
+  }
+
+  .bold-text-12 {
+    font-size: 16px;
+  }
+
+  .bold-text-13 {
+    font-size: 16px;
+  }
+
+  .bold-text-14 {
+    font-size: 16px;
+  }
+
+  .column-4 {
+    font-size: 16px;
+  }
+
+  .column-5 {
+    font-size: 16px;
+  }
+
+  .list-3 {
+    font-size: 16px;
+  }
+
+  .navbar {
+    background-color: #fff;
+  }
+}
+
 @media screen and (max-width: 479px) {
   .w-tab-link {
     display: block;
