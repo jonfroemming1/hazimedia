@@ -1,4 +1,4 @@
-/* Generated on: Wed Oct 19 2022 18:07:17 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Fri Oct 21 2022 02:56:12 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -10,10 +10,6 @@ html {
 }
 body {
   margin: 0;
-}
-html,
-body {
-  scroll-behavior: smooth;
 }
 article,
 aside,
@@ -2314,7 +2310,7 @@ textarea.w-select {
 }
 
 .image {
-  background-image: url("https://uploads-ssl.webflow.com/6344ae03baa48a778a7f4b92/6344ae8e88d449a22a723276_hazilogo1.png");
+  background-image: url("https://uploads-ssl.webflow.com/63520a351705cc8c3c410f37/63520a351705cc7ab3410f3f_hazilogo1.png");
   background-position: 0px 0px;
   background-size: 80px 80px;
   font-size: 0px;
@@ -4710,7 +4706,7 @@ textarea.w-select {
   }
 
   .image-10 {
-    margin-left: 0rem;
+    margin-left: 2.4rem;
   }
 }
 
@@ -4916,7 +4912,20 @@ textarea.w-select {
   }
 
   .column {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-bottom: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .hero-heading-right {
@@ -4930,6 +4939,23 @@ textarea.w-select {
   .heading-8 {
     margin-left: 0rem;
     font-size: 18px;
+  }
+
+  .heading-18 {
+    text-align: center;
+  }
+
+  .list-item-2 {
+    max-width: 200px;
+    text-align: left;
+  }
+
+  .list {
+    text-align: left;
+  }
+
+  .icons {
+    margin-bottom: 16px;
   }
 
   .paragraph-2 {
@@ -5097,7 +5123,20 @@ textarea.w-select {
   }
 
   .column-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     padding-bottom: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .paragraph-3 {
@@ -5121,6 +5160,10 @@ textarea.w-select {
     margin-left: 0%;
   }
 
+  .image-10 {
+    margin-left: 3.6rem;
+  }
+
   .bold-text-9 {
     font-size: 16px;
   }
@@ -5131,6 +5174,42 @@ textarea.w-select {
 
   .bold-text-11 {
     font-size: 16px;
+  }
+
+  .column-4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .column-5 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -5626,6 +5705,7 @@ textarea.w-select {
   .image-10 {
     max-width: 100%;
     margin-bottom: 0.8rem;
+    margin-left: 2rem;
   }
 
   .bold-text-9 {
@@ -5634,7 +5714,7 @@ textarea.w-select {
 }
 @font-face {
   font-family: "MATERIAL ICONS";
-  src: url("https://uploads-ssl.webflow.com/6344ae03baa48a778a7f4b92/6347346c12a0aa42b121b1b2_MaterialIconsRound-Regular.otf")
+  src: url("https://uploads-ssl.webflow.com/63520a351705cc8c3c410f37/63520a351705cc46e4410f45_MaterialIconsRound-Regular.otf")
     format("opentype");
   font-weight: 400;
   font-style: normal;
